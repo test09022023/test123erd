@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ic:complianceRules
+	xmlns:ic="http://xmlns.ciphercloud.com/cspm/compliance/v2">
+	<assessmentRules>
+		<assessmentRule>
+			<serialId>720101</serialId>
+			<ruleId>SOC_SNOW_1_1</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Ensure logging is enabled for all user activities</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Ensure logging is enabled for all user activities</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Ensure logging is enabled for all user activities</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720102</serialId>
+			<ruleId>SOC_SNOW_1_2</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Ensure logging is enabled for all the major components.</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Ensure logging is enabled for all the major components.</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Ensure logging is enabled for all the major components.</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720103</serialId>
+			<ruleId>SOC_SNOW_1_3</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Ensure security questions are registered</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Ensure security questions are registered</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Ensure security questions are registered</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720104</serialId>
+			<ruleId>SOC_SNOW_1_4</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Ensure password policy requires at least one uppercase letter, lowercase letter, special character, number</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Ensure password policy requires at least one uppercase letter, lowercase letter, special character, number</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Ensure password policy requires at least one uppercase letter, lowercase letter, special character, number</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720105</serialId>
+			<ruleId>SOC_SNOW_1_5</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Ensure password policy for minimum length is enabled</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Ensure password policy for minimum length is enabled</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Ensure password policy for minimum length is enabled</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720106</serialId>
+			<ruleId>SOC_SNOW_1_6</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Ensure password policy prevents password reuse</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Ensure password policy prevents password reuse</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Ensure password policy prevents password reuse</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720107</serialId>
+			<ruleId>SOC_SNOW_1_7</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>User password expiration</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>User password expiration</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>User password expiration</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720108</serialId>
+			<ruleId>SOC_SNOW_1_8</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Require secure connections (HTTPS)</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Require secure connections (HTTPS)</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Require secure connections (HTTPS)</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720109</serialId>
+			<ruleId>SOC_SNOW_1_9</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Force re-login on session timeout</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Force re-login on session timeout</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Force re-login on session timeout</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720110</serialId>
+			<ruleId>SOC_SNOW_1_10</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Force logout on session timeout</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Force logout on session timeout</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Force logout on session timeout</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720111</serialId>
+			<ruleId>SOC_SNOW_1_11</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Absolute session timeout</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Absolute session timeout</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Absolute session timeout</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720112</serialId>
+			<ruleId>SOC_SNOW_1_12</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Change default credentials</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Change default credentials</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Change default credentials</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720113</serialId>
+			<ruleId>SOC_SNOW_1_13</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Ensure Keys are rotated every 90 days</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Ensure Keys are rotated every 90 days</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Ensure Keys are rotated every 90 days</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720114</serialId>
+			<ruleId>SOC_SNOW_1_14</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Scan to detect potential misconfigurations and vulnerabilities</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Scan to detect potential misconfigurations and vulnerabilities</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Scan to detect potential misconfigurations and vulnerabilities</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720115</serialId>
+			<ruleId>SOC_SNOW_1_15</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Ensure that Encryption is enabled for any data transfers</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Ensure that Encryption is enabled for any data transfers</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Ensure that Encryption is enabled for any data transfers</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720116</serialId>
+			<ruleId>SOC_SNOW_1_16</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Ensure that only valid users are able to create, modify or remove protected information and assets</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Ensure that only valid users are able to create, modify or remove protected information and assets</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Ensure that only valid users are able to create, modify or remove protected information and assets</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720117</serialId>
+			<ruleId>SOC_SNOW_1_17</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Check if platform encryption is enabled</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Check if platform encryption is enabled</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Check if platform encryption is enabled</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+		<assessmentRule>
+			<serialId>720118</serialId>
+			<ruleId>SOC_SNOW_1_18</ruleId>
+			<profile>Level 1</profile>
+			<ruleName>Ensure user privileges & Sensitive permission is rightly maintained across all connected SAAS apps</ruleName>
+			<ruleDescription>
+				<![CDATA[<p>Ensure user privileges & Sensitive permission is rightly maintained across all connected SAAS apps</p> ]]>
+			</ruleDescription>
+			<remediationDetails>
+				<![CDATA[<p>Ensure user privileges & Sensitive permission is rightly maintained across all connected SAAS apps</p>]]>
+			</remediationDetails>
+			<resourceName>resource</resourceName>
+			<resourceType>resourceType</resourceType>
+			<ruleWeight>3</ruleWeight>
+			<actions>
+				<actionType>Audit</actionType>
+				<actionType>Tag</actionType>
+				<actionType>Remediate</actionType>
+			</actions>
+			<yamlFile>/META-INF/aws-rules/soc2/</yamlFile>
+			<actionYamlFile>/META-INF/aws-rules/soc2/</actionYamlFile>
+			<evalType>Custodian</evalType>
+		</assessmentRule>
+	</assessmentRules>
+	<complianceTemplates>
+		<complianceTemplate>
+			<templateName>Lookout Servicenow Security Best Practices</templateName>
+			<templateDescription>Lookout Servicenow Security Best Practices
+			</templateDescription>
+			<templateDetails>Lookout Servicenow Security Best Practices</templateDetails>
+			<cloudType>servicenow</cloudType>
+			<includedRules>
+				<rule idRef="sn_ps_1_1" controlNumber="1.1"	group="Access Control" />
+				<rule idRef="sn_ps_1_2" controlNumber="1.2"	group="Access Control" />
+				<rule idRef="sn_ps_1_3" controlNumber="1.3" group="Access Control" />
+				<rule idRef="sn_ps_1_4" controlNumber="1.4"	group="Access Control" />
+				<rule idRef="sn_ps_1_5" controlNumber="1.5"	group="Access Control" />
+				<rule idRef="sn_ps_1_6" controlNumber="1.6"	group="Access Control" />
+				<rule idRef="sn_ps_1_7" controlNumber="1.7"	group="Access Control" />
+				<rule idRef="sn_ps_1_8" controlNumber="1.8"	group="Access Control" />
+				<rule idRef="sn_ps_1_9" controlNumber="1.9" group="Access Control" />
+				<rule idRef="sn_ps_1_10" controlNumber="1.10" group="Access Control" />
+				<rule idRef="sn_ps_1_11" controlNumber="1.11"  group="Access Control" />
+				<rule idRef="sn_ps_1_12" controlNumber="1.12"group="Access Control" />
+				<rule idRef="sn_ps_1_13" controlNumber="1.13" 	group="Access Control" />
+				<rule idRef="sn_ps_1_14" controlNumber="1.14"	group="Access Control" />
+				<rule idRef="sn_ps_1_15" controlNumber="1.15"	group="Access Control" />
+				<rule idRef="sn_ps_1_16" controlNumber="1.16"	group="Access Control" />
+				<rule idRef="sn_ps_1_17" controlNumber="1.17"	group="Access Control" />
+				<rule idRef="sn_ps_1_18" controlNumber="1.18"	group="Access Control"  />
+				<rule idRef="sn_ps_1_19" controlNumber="1.19"	group="Access Control"  />
+				<rule idRef="sn_ps_1_20" controlNumber="1.20"	group="Access Control"  />
+			</includedRules>
+		</complianceTemplate>
+	</complianceTemplates>
+</ic:complianceRules>
